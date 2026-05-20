@@ -17,3 +17,5 @@ function Layout() {
 }
 
 export default Layout
+
+// Layout provides the shared chrome: sticky Navbar + routed main content + footer
