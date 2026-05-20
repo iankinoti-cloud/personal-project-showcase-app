@@ -1,5 +1,7 @@
 # personal-project-showcase-app
 
+**Live demo:** [https://pixelgear-admin-9o8ai0ja1-iankinoti-clouds-projects.vercel.app](https://pixelgear-admin-9o8ai0ja1-iankinoti-clouds-projects.vercel.app)
+
 This is a React admin portal I built for a retro gaming shop called PixelGear. The shop sells refurbished consoles, handhelds, controllers, and accessories. The portal lets you manage the product catalogue — add new items, view details, edit prices and stock, delete listings, and search through everything.
 
 ## What it does
