@@ -65,3 +65,5 @@ export function useProducts() {
 }
 
 export default ProductsContext
+
+// CRUD summary: createProduct→POST, updateProduct→PATCH, deleteProduct→DELETE, refresh→GET
