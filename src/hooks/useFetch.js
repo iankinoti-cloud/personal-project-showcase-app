@@ -44,3 +44,6 @@ function useFetch(url, deps = []) {
 }
 
 export default useFetch
+
+// Re-export hook type hint for IDE autocomplete
+// @returns {{ data: T|null, loading: boolean, error: string|null, refetch: () => void }}
