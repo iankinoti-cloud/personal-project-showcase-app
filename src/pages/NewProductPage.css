@@ -1,0 +1,47 @@
+.new-product-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 700px;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.page-title {
+  font-family: var(--font-pixel);
+  font-size: 11px;
+  color: var(--accent);
+  margin: 0;
+}
+
+.page-sub {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.new-product-form-wrap {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.8rem;
+}
+
+.form-status {
+  font-size: 0.85rem;
+  padding: 0.55rem 0.9rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid;
+  margin-top: 0.5rem;
+}
+
+.form-status.success { color: var(--success); background: rgba(122, 170, 106, 0.08); border-color: rgba(122, 170, 106, 0.3); }
+.form-status.error   { color: var(--danger); background: var(--danger-dim); border-color: var(--danger); }
+
+@media (max-width: 600px) {
+  .new-product-form-wrap { padding: 1.2rem; }
+}
