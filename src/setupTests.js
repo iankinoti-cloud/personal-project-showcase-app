@@ -8,3 +8,5 @@ global.fetch = vi.fn(() =>
     json: () => Promise.resolve([]),
   })
 )
+
+// 35 tests across 6 files: hooks, components, routing smoke tests
